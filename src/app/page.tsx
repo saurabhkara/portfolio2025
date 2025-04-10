@@ -1,15 +1,16 @@
 'use client'
 import styles from "./page.module.css";
 import Link from 'next/link';
-import { useState } from "react";
+import { useState,useRef } from "react";
 
 export default function Home() {
-  const [hamburgeClicked,setHamburgerClicked] = useState(false)
+  const [hamburgeClicked,setHamburgerClicked] = useState(false);
+  const sectionRef = useRef<HTMLDivElement>(null)
 
   const handleHamgerClicked=()=>{
-    console.log("clicked",hamburgeClicked)
     setHamburgerClicked((preState)=>!preState)
   }
+
   return (
     <div className={styles.page}>
       <nav className={styles.navbar}>
@@ -38,8 +39,19 @@ export default function Home() {
           </ul>
         </div>
       </nav>
-      <main className={styles.main}>
-        <p>Main content</p>
+      <main className={`${styles.main} ${hamburgeClicked && styles.addMargin}`}>
+       <section  ref={sectionRef} className={styles.aboutSection}>
+        <p>About section</p>
+       </section>
+       <section className={styles.skillSection}>
+        <p>Skills</p>
+       </section>
+       <section className={styles.expreienceSection}>
+        <p>Experience</p>
+       </section>
+       <div className={styles.workSection} >
+        <p>Work</p>
+       </div>
       </main>
       <footer className={styles.footer}>
         <p>Footer</p>
