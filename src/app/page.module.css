@@ -230,16 +230,16 @@
 .skillsIcon{
  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, auto));
-  gap: 30px;
   justify-content: center;
+  column-gap: 30px;
   align-items: center;
 }
 .sectionTitleContainer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
-  margin-top: 25px;
+  padding-top: 15px;
+  padding-top: 25px;
 }
 .skillIconContainer{
   width: 108px;
@@ -249,7 +249,7 @@
   padding-left: 8px;
 }
 .expreienceSection{
-  background-color: brown;
+  background-color:#111827;
   height: 250px;
   margin-bottom: 0px;
   width: 100%;

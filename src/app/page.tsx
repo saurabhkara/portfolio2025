@@ -100,13 +100,13 @@ export default function Home() {
         <section className={styles.skillSection} ref={skillSectionRef}>
 
         <div>
-          <SectionTitle />
-          <p className={styles.skillTech}>The skills, tools and technologies I am really good at:</p>
+          <SectionTitle  title="Skill" aboutContainer="The skills, tools and technologies I am really good at:"/>
+          
         </div>
           <SkillComponent/>
         </section>
         <section className={styles.expreienceSection}>
-          <p>Experience</p>
+        <SectionTitle  title="Exprience" aboutContainer="Here is a quick summary of my most recent experiences:"/>
         </section>
         <div className={styles.workSection} ref={workSectionRef}>
           <p>Work</p>
