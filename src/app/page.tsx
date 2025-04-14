@@ -42,9 +42,9 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.hamburgerIcon} onClick={handleHamgerClicked}>
-          <div className="bar1"></div>
-          <div className="bar2"></div>
-          <div className="bar3"></div>
+          <div className={styles.bar1}></div>
+          <div className={styles.bar2}></div>
+          <div className={styles.bar3}></div>
 
           <ul className={`${styles.mobileMenu} ${hamburgeClicked && styles.open}`}>
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(aboutSectionRef)}>About</p></li>
@@ -59,7 +59,7 @@ export default function Home() {
         <section className={styles.intoSection}>
           <div className={styles.intoDetails}>
             <p className={styles.introName}>Hi, I'm Saurabh 👋</p>
-            <p>I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</p>
+            <p className={styles.aboutMeDetails}>I'm a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</p>
             <div className={styles.introLocation}>
               <img src="./location.png" width={20} height={20} />
               <p className={styles.cityName}>Arrah, Bihar</p>
