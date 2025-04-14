@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState, useRef } from "react";
 import Image from 'next/image';
 import SkillComponent from "../component/SkillComponent";
+import SectionTitle from "../component/SectionTitle";
 
 
 
@@ -99,7 +100,7 @@ export default function Home() {
         <section className={styles.skillSection} ref={skillSectionRef}>
 
         <div>
-          <p className={styles.abtSkl}>Skills</p>
+          <SectionTitle />
           <p className={styles.skillTech}>The skills, tools and technologies I am really good at:</p>
         </div>
           <SkillComponent/>
