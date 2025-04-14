@@ -116,7 +116,6 @@
 
 .introPhoto{
   width: 35%;
-  background-color: rgb(225, 43, 73);
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -143,15 +142,6 @@
 .inroPhotoContainer{
   display: flex;
   flex-direction: row;
-}
-.backgroundShade{
-  background-color: #ccc;
-  width: 120px;
-  height: 160px;
-  position: relative;
-  top: 25px;
-  right:2px ;
-
 }
 .intophotoImg{
   object-fit: contain;
@@ -202,7 +192,6 @@
 
 .profilePicSection{
   width: 50%;
-  background-color: blue;
   height: 100%;
   display: flex;
   align-items: center;
@@ -221,6 +210,14 @@
 
 .abtSkl{
   font-size: 1rem;
+  text-align: center;
+}
+
+.skillTech{
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .expreienceSection{
@@ -352,7 +349,6 @@
   
   .profilePicSection{
     width: 100%;
-    background-color: blue;
   }
 
   .footer {

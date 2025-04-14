@@ -62,12 +62,11 @@ export default function Home() {
           </div>
           <div className={styles.introPhoto}>
             <div className={styles.inroPhotoContainer}>
-            <div className={styles.backgroundShade}/>
             <img
-              src="/img.png"
+              src="/piccc.png"
               alt="My Picture"
-              width={120}
-              height={160}
+              width={140}
+              height={180}
               className={styles.intophotoImg}
             />
             
@@ -78,12 +77,11 @@ export default function Home() {
         <section className={styles.aboutSection} ref={aboutSectionRef}>
           <div className={styles.profilePicSection}>
           <div className={styles.inroPhotoContainer}>
-            <div className={styles.backgroundShade}/>
             <img
-              src="/img.png"
+              src="/piccc.png"
               alt="My Picture"
-              width={120}
-              height={160}
+              width={140}
+              height={180}
               className={styles.intophotoImg}
             />
             
@@ -94,7 +92,10 @@ export default function Home() {
             <p>I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</p>
           </div>
         </section>
-        <div className={styles.aboutmetext}><p className={styles.abtSkl}>Skills</p></div>
+        <div >
+          <p className={styles.abtSkl}>Skills</p>
+          <p className={styles.skillTech}>The skills, tools and technologies I am really good at:</p>
+        </div>
         <section className={styles.skillSection} ref={skillSectionRef}>
 
         </section>
