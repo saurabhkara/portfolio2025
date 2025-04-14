@@ -1,0 +1,67 @@
+
+.expericeCard{
+    background-color: #1F2937;
+    width: 75%;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.companyDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.companyName{
+    font-size: 1.5rem;
+    color:#14A800;
+    font-weight: 800;
+    width: 30%;
+    text-align: center;
+  
+}
+
+.desination{
+    font-size: 1rem;
+    font-weight: 800;
+    color: #F9FAFB;
+    width: 40%;
+    text-align: center;
+   
+}
+
+.companyRolesContainer{
+    width: 40%;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.rolePoints{
+    color: #D1D5DB;
+}
+
+.year{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #E5E7EB;
+    width: 30%;
+    text-align: center;
+}
+
+
+@media (max-width: 620px) {
+    .expericeCard{
+        width: 90%;
+    }
+    .companyDetails{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .companyRolesContainer{
+        width: 90%;
+    }
+}
