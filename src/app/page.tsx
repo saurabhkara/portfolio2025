@@ -3,6 +3,9 @@ import styles from "./page.module.css";
 import Link from 'next/link';
 import { useState, useRef } from "react";
 import Image from 'next/image';
+import SkillComponent from "../component/SkillComponent";
+
+
 
 export default function Home() {
 
@@ -92,12 +95,14 @@ export default function Home() {
             <p>I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.</p>
           </div>
         </section>
-        <div >
+        
+        <section className={styles.skillSection} ref={skillSectionRef}>
+
+        <div>
           <p className={styles.abtSkl}>Skills</p>
           <p className={styles.skillTech}>The skills, tools and technologies I am really good at:</p>
         </div>
-        <section className={styles.skillSection} ref={skillSectionRef}>
-
+          <SkillComponent/>
         </section>
         <section className={styles.expreienceSection}>
           <p>Experience</p>
