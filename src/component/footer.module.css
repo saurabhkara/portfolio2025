@@ -50,3 +50,25 @@
     font-size: 0.8rem;
     color: #D1D5DB;
 }
+
+.madewithLove{
+    width: 100%;
+    background-color: #030712;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.copyrightHeart{
+    width: 14px;
+    height: 14px;
+}
+
+.copyrighttext{
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#F9FAFB;
+    font-size: 0.7rem;
+}

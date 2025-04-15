@@ -15,7 +15,10 @@ export default function FooterComponent() {
                 < SocialIconComponent />
             </div>
             <div className={styles.madewithLove}>
-
+                <img src="./copyright.png" className={styles.copyrightHeart} />
+                <p className={styles.copyrighttext}> 2005 | Design and coded with</p>
+                <img src="./heart.png" className={styles.copyrightHeart} />
+                <p className={styles.copyrighttext}>by Saurabh</p>
             </div>
         </div>
     )
