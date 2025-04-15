@@ -65,6 +65,16 @@ export default function Home() {
               <img src="./location.png" width={20} height={20} />
               <p className={styles.cityName}>Arrah, Bihar</p>
             </div>
+            <div className={styles.introLocation}>
+              <img src="./greendot.png" width={10} height={10} />
+                <p className={styles.cityName}>Available for new projects</p>
+            </div>
+            <div className={styles.introLocation}>
+                <img src="./github.png"  className={styles.socialIcon}/>
+                <img src="./x.png"  className={styles.socialIcon}/>
+                <img src="./linkedin.png" className={styles.socialIcon}/>
+            </div> 
+
           </div>
           <div className={styles.introPhoto}>
             <div className={styles.inroPhotoContainer}>
