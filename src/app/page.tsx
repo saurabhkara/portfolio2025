@@ -6,6 +6,7 @@ import Image from 'next/image';
 import SkillComponent from "../component/SkillComponent";
 import SectionTitle from "../component/SectionTitle";
 import ExperienceCard from "@/component/ExperienceCard";
+import ProjectSection from "@/component/ProjectSection";
 
 
 
@@ -85,7 +86,7 @@ export default function Home() {
             <div className={styles.inroPhotoContainer}>
               <img
                 src="/piccc.png"
-                alt="My Picture"
+                alt="about me Picture"
                 width={140}
                 height={180}
                 className={styles.intophotoImg}
@@ -115,7 +116,8 @@ export default function Home() {
           <ExperienceCard />
         </section>
         <div className={styles.workSection} ref={workSectionRef}>
-        <SectionTitle title="Work" aboutContainer="Some of the noteworthy projects I have built:" />
+          <SectionTitle title="Work" aboutContainer="Some of the noteworthy projects I have built:" />
+          <ProjectSection />
         </div>
       </main>
       <footer className={styles.footer} ref={contactSectionRef}>

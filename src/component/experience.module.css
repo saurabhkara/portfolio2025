@@ -2,7 +2,7 @@
 .expericeCard{
     background-color: #1F2937;
     width: 75%;
-    padding: 10px;
+    padding:20px;
     border-radius: 15px;
     justify-content: space-around;
     display: flex;
@@ -17,12 +17,10 @@
 }
 
 .companyName{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color:#14A800;
     font-weight: 800;
-    width: 30%;
-    text-align: center;
-  
+    width: 30%;  
 }
 
 .desination{
@@ -30,7 +28,7 @@
     font-weight: 800;
     color: #F9FAFB;
     width: 40%;
-    text-align: center;
+    text-align: left;
    
 }
 
@@ -45,11 +43,11 @@
 }
 
 .year{
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     color: #E5E7EB;
     width: 30%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 
@@ -61,7 +59,18 @@
         flex-direction: column;
         gap: 10px;
     }
-    .companyRolesContainer{
+    .companyName{
         width: 90%;
     }
+    .desination{
+        width: 90%;
+    }
+    .year{
+        width: 90%;
+    }
+    .companyRolesContainer{
+        width: 90%;
+        align-items: flex-start;
+    }
+
 }
