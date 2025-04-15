@@ -7,6 +7,8 @@ import SkillComponent from "../component/SkillComponent";
 import SectionTitle from "../component/SectionTitle";
 import ExperienceCard from "@/component/ExperienceCard";
 import ProjectSection from "@/component/ProjectSection";
+import FooterComponent from "@/component/FooterComponent";
+import SocialIconComponent from "@/component/SocialIconComponent";
 
 
 
@@ -69,11 +71,7 @@ export default function Home() {
               <img src="./greendot.png" width={10} height={10} />
                 <p className={styles.cityName}>Available for new projects</p>
             </div>
-            <div className={styles.introLocation}>
-                <img src="./github.png"  className={styles.socialIcon}/>
-                <img src="./x.png"  className={styles.socialIcon}/>
-                <img src="./linkedin.png" className={styles.socialIcon}/>
-            </div> 
+            < SocialIconComponent/>
 
           </div>
           <div className={styles.introPhoto}>
@@ -131,14 +129,8 @@ export default function Home() {
         </div>
       </main>
       <footer className={styles.footer} ref={contactSectionRef}>
-        <p>Footer</p>
-        <Link
-          href={{
-            pathname: '/about',
-          }}
-        >
-          About
-        </Link>
+        <SectionTitle title="Get in touch" aboutContainer="Feel free to reach out to me" />
+        <FooterComponent />
       </footer>
     </div>
   );

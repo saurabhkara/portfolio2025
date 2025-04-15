@@ -1,0 +1,52 @@
+
+.footercomponent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailContainer{
+    display: flex;
+    align-items: center;
+}
+
+.mailIcon{
+    width: 25px;
+    height: 25px;
+}
+
+.mailid{
+    color:#F9FAFB;
+    font-size: 1.25rem;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.copyIcon{
+    width: 27px;
+    height: 27px;
+}
+
+.copyIcon:hover{
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+.mailIcon:hover{
+  transform: scale(1.08);
+  transition: 0.3s;
+}
+
+.socialComp{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.findMessage{
+    font-size: 0.8rem;
+    color: #D1D5DB;
+}
