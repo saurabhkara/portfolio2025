@@ -14,7 +14,7 @@ import SocialIconComponent from "@/component/SocialIconComponent";
 
 export default function Home() {
 
-  const [hamburgeClicked, setHamburgerClicked] = useState(true);
+  const [hamburgeClicked, setHamburgerClicked] = useState(false);
   const workSectionRef = useRef<HTMLDivElement>(null)
   const skillSectionRef = useRef<HTMLDivElement>(null)
   const aboutSectionRef = useRef<HTMLDivElement>(null)

@@ -3,12 +3,18 @@ import styles from './footer.module.css'
 import SocialIconComponent from './SocialIconComponent';
 
 export default function FooterComponent() {
+
+    
+
+    const copyClipBoard=()=>{
+        navigator.clipboard.writeText('saurabhkumar679@gmail.com');
+    }
     return (
         <div className={styles.footercomponent}>
             <div className={styles.mailContainer}>
                 <a href="mailto:saurabhkumar679@gmail.com"><img src="./mail.png" className={styles.mailIcon} /></a>
                 <p className={styles.mailid}>saurabhkumar679@gmail.com</p>
-                <img src="./copyIcon.png" className={styles.copyIcon} />
+                <div onClick={copyClipBoard}><img src="./copyIcon.png" className={styles.copyIcon} /></div>
             </div>
             <div className={styles.socialComp}>
                 <p className={styles.findMessage}>You may also find me on these platforms!</p>
