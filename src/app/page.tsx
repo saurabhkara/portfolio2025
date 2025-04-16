@@ -29,6 +29,10 @@ export default function Home() {
     currentRef.current?.scrollIntoView({ behavior: 'smooth' })
   }
 
+  const openNewTab=()=>{
+    window.open("https://drive.google.com/file/d/1CwIVTKvSNSFopAZAdnYrUZLzl3WS_zcc/view?usp=drive_link")
+  }
+
   return (
     <div className={styles.page}>
       <nav className={styles.navbar}>
@@ -41,7 +45,7 @@ export default function Home() {
           <p className={styles.tabs} onClick={() => scrollToSection(workSectionRef)}>Work</p>
           <p className={styles.tabs} onClick={() => scrollToSection(contactSectionRef)}>Contact</p>
           <div>
-            <p className={styles.tabs}>Request for CV</p>
+            <p className={styles.tabs} onClick={openNewTab}>Request for CV</p>
           </div>
         </div>
         <div className={styles.hamburgerIcon} onClick={handleHamgerClicked}>
@@ -54,7 +58,7 @@ export default function Home() {
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(skillSectionRef)}>Skill</p></li>
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(workSectionRef)}>Work</p></li>
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(contactSectionRef)}>Contact</p></li>
-            <li className={styles.mobileMenuTab}> <p className={styles.tabs}>Request for CV</p></li>
+            <li className={styles.mobileMenuTab}> <p className={styles.tabs}  onClick={openNewTab}>Request for CV</p></li>
           </ul>
         </div>
       </nav>

@@ -6,7 +6,7 @@ export default function FooterComponent() {
     return (
         <div className={styles.footercomponent}>
             <div className={styles.mailContainer}>
-                <img src="./mail.png" className={styles.mailIcon} />
+                <a href="mailto:saurabhkumar679@gmail.com"><img src="./mail.png" className={styles.mailIcon} /></a>
                 <p className={styles.mailid}>saurabhkumar679@gmail.com</p>
                 <img src="./copyIcon.png" className={styles.copyIcon} />
             </div>
