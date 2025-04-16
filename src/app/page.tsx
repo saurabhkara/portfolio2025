@@ -14,7 +14,7 @@ import SocialIconComponent from "@/component/SocialIconComponent";
 
 export default function Home() {
 
-  const [hamburgeClicked, setHamburgerClicked] = useState(false);
+  const [hamburgeClicked, setHamburgerClicked] = useState(true);
   const workSectionRef = useRef<HTMLDivElement>(null)
   const skillSectionRef = useRef<HTMLDivElement>(null)
   const aboutSectionRef = useRef<HTMLDivElement>(null)
@@ -52,15 +52,14 @@ export default function Home() {
           <div className={styles.bar1}></div>
           <div className={styles.bar2}></div>
           <div className={styles.bar3}></div>
-
-          <ul className={`${styles.mobileMenu} ${hamburgeClicked && styles.open}`}>
+        </div>
+        <ul className={`${styles.mobileMenu} ${hamburgeClicked && styles.open}`}>
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(aboutSectionRef)}>About</p></li>
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(skillSectionRef)}>Skill</p></li>
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(workSectionRef)}>Work</p></li>
             <li className={styles.mobileMenuTab}><p className={styles.tabs} onClick={() => scrollToSection(contactSectionRef)}>Contact</p></li>
             <li className={styles.mobileMenuTab}> <p className={styles.tabs}  onClick={openNewTab}>Request for CV</p></li>
-          </ul>
-        </div>
+        </ul>
       </nav>
       <main className={`${styles.main} ${hamburgeClicked && styles.addMargin}`}>
         <section className={styles.intoSection}>
