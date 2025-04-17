@@ -9,6 +9,7 @@ import ExperienceCard from "@/component/ExperienceCard";
 import ProjectSection from "@/component/ProjectSection";
 import FooterComponent from "@/component/FooterComponent";
 import SocialIconComponent from "@/component/SocialIconComponent";
+import ExperienceSection from "@/component/ExperienceSection";
 
 
 
@@ -124,7 +125,7 @@ export default function Home() {
         </section>
         <section className={styles.expreienceSection}>
           <SectionTitle title="Exprience" aboutContainer="Here is a quick summary of my most recent experiences:" />
-          <ExperienceCard />
+          <ExperienceSection />
         </section>
         <div className={styles.workSection} ref={workSectionRef}>
           <SectionTitle title="Work" aboutContainer="Some of the noteworthy projects I have built:" />

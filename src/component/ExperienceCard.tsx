@@ -1,15 +1,30 @@
 import React from 'react'
-import styles from "./experience.module.css"
-export default function ExperienceCard() {
+import styles from "./experience.module.css";
+
+interface IProp{
+  item:{
+    companyName:string,
+    desination:string,
+    duration:string,
+    role:string[]
+  }
+}
+export default function ExperienceCard({item}:IProp) {
   return (
     <div className={styles.expericeCard}>
         <div className={styles.companyDetails}>
-            <p className={styles.companyName}>UpWorks</p>
-            <p className={styles.desination}>React Native Developer</p>
-            <p className={styles.year}>2023-2025</p>
+            <p className={styles.companyName}>{item.companyName}</p>
+            <p className={styles.desination}>{item.desination}</p>
+            <p className={styles.year}>{item.duration}</p>
         </div>
         <div className={styles.companyRolesContainer}>
-            <li className={styles.rolePoints}>Working as React Native Developer</li>
+            {
+              item.role.map((roleItem)=>{
+                return(
+                  <li className={styles.rolePoints}>{roleItem}</li>
+                )
+              })
+            }
         </div>
     </div>
   )

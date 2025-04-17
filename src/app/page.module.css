@@ -1,10 +1,11 @@
 .page {
   padding: 0px;
   margin: 0px;
- line-height: 1.6;
- background-color: #030712;
+  line-height: 1.6;
+  background-color: #030712;
 }
-.navbar{
+
+.navbar {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 2%;
@@ -17,16 +18,17 @@
   background-color: #030712;
 }
 
-.navbarLogo{
+.navbarLogo {
   width: 30%;
   height: 100%;
 }
 
-.logo{
+.logo {
   font-size: 18px;
   color: green;
 }
-.navbarTabs{
+
+.navbarTabs {
   width: 60%;
   height: 100%;
   display: flex;
@@ -34,12 +36,13 @@
   align-items: center;
   justify-content: space-around;
 }
-.tabs:hover{
+
+.tabs:hover {
   transform: scale(1.04);
   transition: 0.3s;
 }
 
-.hamburgerIcon{
+.hamburgerIcon {
   display: none;
 }
 
@@ -60,7 +63,7 @@
   opacity: 0;
 }
 
- .open .bar3 {
+.open .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -8px);
   transform: rotate(45deg) translate(-6px, -8px);
 }
@@ -84,27 +87,26 @@
   padding-left: 5%;
 }
 
-.mobileMmenu >li {
+.mobileMmenu>li {}
 
-}
-.tabs{
-  color:#D1D5DB
+.tabs {
+  color: #D1D5DB
 }
 
-.mobileMenuTab{
+.mobileMenuTab {
   width: 100%;
   padding-bottom: 4px;
   padding-top: 4px;
 }
 
-.addMargin{
+.addMargin {
   margin-top: 30%;
 }
 
 
 /* main content style */
 
-.intoSection{
+.intoSection {
   width: 100%;
   padding-left: 2%;
   padding-right: 2%;
@@ -117,7 +119,7 @@
   padding-bottom: 25px;
 }
 
-.introPhoto{
+.introPhoto {
   width: 35%;
   height: 100%;
   justify-content: center;
@@ -125,13 +127,13 @@
   display: flex;
 }
 
-.intoDetails{
+.intoDetails {
   width: 65%;
   height: 100%;
   padding: 20px;
 }
 
-.introLocation{
+.introLocation {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -139,48 +141,53 @@
 
 }
 
-.socialIcon{
+.socialIcon {
   margin-right: 15px;
   height: 22px;
   width: 22px;
 }
 
-.socialIcon:hover{
+.socialIcon:hover {
   transform: scale(1.18);
   transition: 0.3s;
 }
 
-.cityName{
+.cityName {
   margin-left: 10px;
-  color:#D1D5DB;
+  color: #D1D5DB;
 }
-.inroPhotoContainer{
+
+.inroPhotoContainer {
   display: flex;
   flex-direction: row;
 }
-.intophotoImg{
+
+.intophotoImg {
   object-fit: contain;
   z-index: 5;
 }
-.introName{
+
+.introName {
   font-size: 2rem;
   font-weight: 900;
   color: #F9FAFB;
   margin-bottom: 15px;
 }
-.aboutmetext{
-  align-self:center;
+
+.aboutmetext {
+  align-self: center;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 2%;
   padding-right: 2%;
 }
-.aboutSection{
+
+.aboutSection {
   width: 100%;
-  
+
   justify-content: space-between;
   padding-left: 2%;
   padding-right: 2%;
@@ -189,13 +196,13 @@
   background-color: #111827;
 }
 
-.aboutMeMainContainer{
+.aboutMeMainContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.aboutNameSection{
+.aboutNameSection {
   width: 50%;
   height: 100%;
   padding: 10px;
@@ -205,17 +212,18 @@
   justify-content: center;
 }
 
-.curiousSection{
+.curiousSection {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 20px;
   color: #F9FAFB;
 }
 
-.aboutMeDetails{
-  color:#D1D5DB
+.aboutMeDetails {
+  color: #D1D5DB
 }
-.profilePicSection{
+
+.profilePicSection {
   width: 50%;
   height: 100%;
   display: flex;
@@ -223,7 +231,7 @@
   justify-content: center;
 }
 
-.skillSection{
+.skillSection {
   width: 100%;
   padding-left: 2%;
   padding-right: 2%;
@@ -232,7 +240,7 @@
   background-color: #030712;
 }
 
-.abtSkl{
+.abtSkl {
   font-size: 1rem;
   color: #D1D5DB;
   background-color: #374151;
@@ -243,7 +251,7 @@
   font-weight: 800;
 }
 
-.skillTech{
+.skillTech {
   font-size: 1rem;
   margin-top: 10px;
   text-align: center;
@@ -253,29 +261,33 @@
   align-items: center;
   justify-content: center;
 }
-.skillsIcon{
- display: grid;
+
+.skillsIcon {
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, auto));
   justify-content: center;
   column-gap: 30px;
   align-items: center;
 }
-.sectionTitleContainer{
+
+.sectionTitleContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 15px;
   padding-top: 25px;
 }
-.skillIconContainer{
+
+.skillIconContainer {
   width: 108px;
   height: 120px;
-  padding-top: 10px ;
-  padding-bottom: 10px ;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 8px;
 }
-.expreienceSection{
-  background-color:#111827;
+
+.expreienceSection {
+  background-color: #111827;
   padding-left: 2%;
   padding-right: 2%;
   padding-top: 20px;
@@ -286,11 +298,20 @@
   flex-direction: column;
 }
 
-.workSection{
+.expreienceSectionComponent {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.workSection {
   background-color: #030712;
   width: 100%;
-  
+
 }
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -330,7 +351,7 @@
 
 @media (max-width: 620px) {
 
-  .navbar{
+  .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 2%;
@@ -342,61 +363,66 @@
     flex-direction: row;
   }
 
-  .navbarTabs{
+  .navbarTabs {
     display: none;
   }
-  .hamburgerIcon{
+
+  .hamburgerIcon {
     display: inline;
   }
 
- .hamburgerIcon{
-  display: block;
- }
+  .hamburgerIcon {
+    display: block;
+  }
+
   .main {
     align-items: center;
   }
 
-.intoSection{
-  display: flex;
-  flex-direction: column;
-  flex-direction: column-reverse;
-}
-.greenDot{
-  width: 25px;
-  height: 25px;
-}
+  .intoSection {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
 
-.intoDetails{
-  width: 100%;
-}
-.introName{
-  width: 100%;
-}
+  .greenDot {
+    width: 25px;
+    height: 25px;
+  }
 
-.introPhoto{
-  width: 100%;
-}
+  .intoDetails {
+    width: 100%;
+  }
 
-.aboutSection{
+  .introName {
+    width: 100%;
+  }
+
+  .introPhoto {
+    width: 100%;
+  }
+
+  .aboutSection {
     margin-bottom: 0px;
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  
-  .aboutMeMainContainer{
+
+  .aboutMeMainContainer {
     display: flex;
     flex-direction: column;
   }
-  .aboutNameSection{
-    width: 100%;
-  }
-  
-  .profilePicSection{
+
+  .aboutNameSection {
     width: 100%;
   }
 
-  .expreienceSection{
+  .profilePicSection {
+    width: 100%;
+  }
+
+  .expreienceSection {
     padding-bottom: 60px;
   }
 
@@ -414,7 +440,7 @@
 }
 
 @media (max-width: 400px) {
-  .addMargin{
+  .addMargin {
     margin-top: 50%;
   }
 }
