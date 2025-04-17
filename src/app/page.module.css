@@ -418,3 +418,19 @@
     margin-top: 50%;
   }
 }
+
+
+
+
+*::-webkit-scrollbar {
+  width: 1px;
+}
+
+*::-webkit-scrollbar-track {
+  /* background-color: #e61515; */
+  background-color: #030712;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: red;
+}
