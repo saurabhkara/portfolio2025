@@ -3,7 +3,8 @@ import ExperienceCard from './ExperienceCard'
 import styles from "../app/page.module.css"
 
 const experienceData=[
-    {
+    {   
+        id:'1e',
         companyName:'Wovv Tech',
         desination:'React Native Developer',
         duration:'Mar 2023 - Till now',
@@ -13,6 +14,7 @@ const experienceData=[
         ]
     },
     {
+        id:'2e',
         companyName:'Wovv Tech',
         desination:'React Native Developer',
         duration:'Mar 2023 - Till now',
@@ -28,7 +30,7 @@ export default function ExperienceSection() {
     <div className={styles.expreienceSectionComponent}>
        {
         experienceData.map((item)=>{
-            return( <ExperienceCard  item={item}/>)
+            return( <ExperienceCard  item={item} key={item.id}/>)
         })
        }
     </div>

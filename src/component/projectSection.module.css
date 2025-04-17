@@ -1,4 +1,4 @@
-.projectSection{
+.projectSection {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     padding-bottom: 25px;
 }
 
-.projectCard{
+.projectCard {
     width: 70%;
     align-items: center;
     justify-content: center;
@@ -19,52 +19,63 @@
     margin-top: 10px;
 }
 
-.projectCardImage{
+.projectCardImage {
     width: 48%;
     height: 98%;
     padding: 10px;
     overflow: hidden;
 }
 
-.projectCardDescr{
+.projectCardDescr {
     width: 48%;
     height: 98%;
-    padding: 10px; 
+    padding: 10px;
     overflow-y: scroll;
     z-index: 5;
 }
 
 .projectCardDescr {
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: .5px;  /* Firefox */
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: .5px;
+    /* Firefox */
 }
- /* for safari and crhrome */
 
-
-
-
-.techlistContainer{
-   
+.projectCardDescr::-webkit-scrollbar {
+    width: 1px;
 }
-.projectImage{
+
+.projectCardDescr::-webkit-scrollbar-track {
+    /* background-color: #e61515; */
+    background-color: #030712;
+}
+
+.projectCardDescr::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(135, 135, 135);
+}
+
+
+.techlistContainer {}
+
+.projectImage {
     width: 100%;
     height: 200px;
 }
 
-.projectName{
+.projectName {
     font-weight: 800;
     font-size: 1.2rem;
-    color:#F9FAFB;
+    color: #F9FAFB;
 }
 
-.prejectDesc{
+.prejectDesc {
     font-size: 1rem;
     margin-top: 10px;
-    color:#F9FAFB;
+    color: #F9FAFB;
     margin-bottom: 10px;
 }
 
-.techTagContainer{
+.techTagContainer {
     display: inline-block;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -78,12 +89,13 @@
     margin-bottom: 5px;
 }
 
-.techLabel{
+.techLabel {
     font-size: 0.8rem;
-    color:#F9FAFB;
+    color: #F9FAFB;
     font-weight: 700;
 }
-.repoLinkContainer{
+
+.repoLinkContainer {
     margin-top: 10px;
     margin-bottom: 15px;
     height: 15px;
@@ -91,14 +103,16 @@
 }
 
 @media (max-width: 620px) {
-    .projectCard{
+    .projectCard {
         flex-direction: column;
         width: 90%;
     }
-    .projectCardImage{
+
+    .projectCardImage {
         width: 90%;
     }
-    .projectCardDescr{
+
+    .projectCardDescr {
         width: 90%;
         padding-left: 10px;
         padding-right: 10px;

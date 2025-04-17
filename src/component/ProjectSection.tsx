@@ -4,6 +4,7 @@ import ProjectCard from './ProjectCard';
 
 const projectData=[
   {
+    id:'1p',
     projectName:'Project Name',
     projectDesc:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.',
     repoLink:'https://github.com/saurabhkara',
@@ -19,7 +20,7 @@ export default function ProjectSection() {
     <div className={styles.projectSection}>
        {
         projectData.map((item)=>{
-         return(<ProjectCard item={item}/>)
+         return(<ProjectCard item={item} key={item.id}/>)
         })
        }
     </div>

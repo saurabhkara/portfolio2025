@@ -1,11 +1,8 @@
 'use client'
 import styles from "./page.module.css";
-import Link from 'next/link';
 import { useState, useRef } from "react";
-import Image from 'next/image';
 import SkillComponent from "../component/SkillComponent";
 import SectionTitle from "../component/SectionTitle";
-import ExperienceCard from "@/component/ExperienceCard";
 import ProjectSection from "@/component/ProjectSection";
 import FooterComponent from "@/component/FooterComponent";
 import SocialIconComponent from "@/component/SocialIconComponent";

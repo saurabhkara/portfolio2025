@@ -19,9 +19,9 @@ export default function ExperienceCard({item}:IProp) {
         </div>
         <div className={styles.companyRolesContainer}>
             {
-              item.role.map((roleItem)=>{
+              item.role.map((roleItem,index)=>{
                 return(
-                  <li className={styles.rolePoints}>{roleItem}</li>
+                  <li className={styles.rolePoints} key={index}>{roleItem}</li>
                 )
               })
             }

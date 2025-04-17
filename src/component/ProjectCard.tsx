@@ -37,7 +37,7 @@ export default function ProjectCard({ item }: TProjectCard) {
                     {
                         item.technologies.map((tech) => {
                             return (
-                                <TechTag label={tech} />
+                                <TechTag label={tech} key={tech}/>
                             )
                         })
                     }
