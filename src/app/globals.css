@@ -1,12 +1,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --themeBackground1:#030712;
+  --themeBackground2:#111827;
+  --cardBackground: #1F2937;
+  --textColor1:#F9FAFB;
+  --hamburgerColor: #D1D5DB;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --themeBackground1:#ffffff;
+    --themeBackground2:#ffffff;
+    --cardBackground: #1F2937;
+    --textColor1:#0a0a0a;
+    --hamburgerColor:#141414;
   }
 }
 

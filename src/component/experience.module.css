@@ -1,6 +1,6 @@
 
 .expericeCard{
-    background-color: #1F2937;
+    background-color: var(--cardBackground);
     width: 75%;
     padding:20px;
     border-radius: 15px;
@@ -27,7 +27,7 @@
 .desination{
     font-size: 1rem;
     font-weight: 800;
-    color: #F9FAFB;
+    color: var(--textColor1);
     width: 40%;
     text-align: left;
    
@@ -40,13 +40,13 @@
 }
 
 .rolePoints{
-    color: #D1D5DB;
+    color: var(--hamburgerColor);
 }
 
 .year{
     font-size: 1rem;
     font-weight: 500;
-    color: #E5E7EB;
+    color: var(--textColor1);
     width: 30%;
     /* text-align: center; */
 }
