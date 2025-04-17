@@ -80,6 +80,7 @@
 @media (max-width: 620px) {
     .projectCard{
         flex-direction: column;
+        width: 90%;
     }
     .projectCardImage{
         width: 90%;

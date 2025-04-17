@@ -8,6 +8,7 @@
 
 .mailContainer{
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -18,9 +19,10 @@
 
 .mailid{
     color:#F9FAFB;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin-right: 20px;
     margin-left: 20px;
+    height: 100%;
 }
 
 .copyIcon{
