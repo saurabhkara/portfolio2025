@@ -9,15 +9,25 @@ const experienceData=[
         desination:'React Native Developer',
         duration:'Mar 2023 - Till now',
         role:[
-            'Responsible for bla bla bla',
+            'Respnsibile',
             'Responsible for jaksjjjjjjj'
         ]
     },
     {
         id:'2e',
-        companyName:'Wovv Tech',
-        desination:'React Native Developer',
+        companyName:'Freelancer',
+        desination:'Frontend Developer',
         duration:'Mar 2023 - Till now',
+        role:[
+            'Responsible for bla bla bla',
+            'Responsible for jaksjjjjjjj'
+        ]
+    },
+    {
+        id:'3e',
+        companyName:'Taxmann Technology',
+        desination:'React Native Intern',
+        duration:'Oct 2021 - Jan 2022',
         role:[
             'Responsible for bla bla bla',
             'Responsible for jaksjjjjjjj'
