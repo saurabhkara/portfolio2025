@@ -28,7 +28,7 @@ export default function Home() {
   }
 
   const openNewTab=()=>{
-    window.open("https://drive.google.com/file/d/1CwIVTKvSNSFopAZAdnYrUZLzl3WS_zcc/view?usp=drive_link")
+    window.location.href="mailto:saurabhkumar679@gmail.com?subject=Please%20share%20your%20resume"                   
   }
 
   return (
