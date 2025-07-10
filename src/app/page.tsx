@@ -151,10 +151,10 @@ export default function Home() {
           <div className={styles.introPhoto}>
             <div className={styles.inroPhotoContainer}>
               <img
-                src="/piccc.png"
+                src="/profilepic.jpg"
                 alt="My Picture"
-                width={140}
-                height={180}
+                width={180}
+                height={200}
                 className={styles.intophotoImg}
               />
             </div>
@@ -166,10 +166,10 @@ export default function Home() {
             <div className={styles.profilePicSection}>
               <div className={styles.inroPhotoContainer}>
                 <img
-                  src="/piccc.png"
+                  src="/pppic.jpg"
                   alt="about me Picture"
-                  width={140}
-                  height={180}
+                  width={180}
+                  height={200}
                   className={styles.intophotoImg}
                 />
               </div>
@@ -179,12 +179,13 @@ export default function Home() {
                 Curious about me? Here you have it:
               </p>
               <p className={styles.aboutMeDetails}>
-                I'm a passionate, self-proclaimed designer who specializes in
-                full stack development (React.js & Node.js). I am very
-                enthusiastic about bringing the technical and visual aspects of
-                digital products to life. User experience, pixel perfect design,
-                and writing clear, readable, highly performant code matters to
-                me.
+                A Full Stack Mobile Developer with over 3+ years of hands-on
+                experience in building cross-platform mobile apps using React
+                Native. I’ve successfully delivered multiple end-to-end
+                projects, collaborated with cross-functional teams, and mentored
+                interns to bridge the gap between theory and practical
+                development. I enjoy turning ideas into smooth, secure, and
+                user-friendly mobile experiences.
               </p>
             </div>
           </div>
