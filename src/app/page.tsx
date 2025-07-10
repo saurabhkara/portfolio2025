@@ -25,11 +25,18 @@ export default function Home() {
   };
 
   const openNewTab = () => {
-    var url =
-      "https://drive.google.com/file/d/1-mTbVjTJuB4kSA7be8DBl_Oh986LVXdE/view?usp=drive_link";
-    window.open(url, "Download");
+    // var url =
+    //   "https://drive.google.com/file/d/1-mTbVjTJuB4kSA7be8DBl_Oh986LVXdE/view?usp=drive_link";
+    // window.open(url, "Download");
     // window.location.href =
     //   "mailto:saurabhkumar679@gmail.com?subject=Please%20share%20your%20resume";
+
+    const link = document.createElement("a");
+    link.href = "/docs/saurabhResumePortfolio.pdf";
+    link.download = "Sresume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -125,11 +132,11 @@ export default function Home() {
           <div className={styles.intoDetails}>
             <p className={styles.introName}>Hi, I'm Saurabh 👋</p>
             <p className={styles.aboutMeDetails}>
-              I'm a Mobile full stack software developer with a focus on
-              creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+              I'm a Full Stack Mobile Developer with experience building
+              scalable and performant mobile applications using React Native,
+              Node.js, and modern backend technologies. I specialize in crafting
+              seamless user experiences and writing clean, secure, and
+              maintainable code for mobile applications.
             </p>
             <div className={styles.introLocation}>
               <img src="./location.png" width={20} height={20} />
