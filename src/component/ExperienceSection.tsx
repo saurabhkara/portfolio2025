@@ -17,7 +17,7 @@ const experienceData = [
     id: "2e",
     companyName: "Freelancer",
     desination: "Frontend Developer",
-    duration: "Mar 2023 - Feb 2023",
+    duration: "Feb 2021 - Feb 2023",
     role: [
       "Was accountable for creating intuitive user interfaces, connecting backend services, resolving issues, and ensuring code reliability through testing.",
     ],
