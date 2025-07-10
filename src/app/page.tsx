@@ -151,7 +151,7 @@ export default function Home() {
           <div className={styles.introPhoto}>
             <div className={styles.inroPhotoContainer}>
               <img
-                src="/profilePic.jpg"
+                src="/introProfilePic.jpg"
                 alt="My Picture"
                 width={180}
                 height={200}
