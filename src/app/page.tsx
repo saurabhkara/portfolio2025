@@ -25,8 +25,11 @@ export default function Home() {
   };
 
   const openNewTab = () => {
-    window.location.href =
-      "mailto:saurabhkumar679@gmail.com?subject=Please%20share%20your%20resume";
+    var url =
+      "https://drive.google.com/file/d/1-mTbVjTJuB4kSA7be8DBl_Oh986LVXdE/view?usp=drive_link";
+    window.open(url, "Download");
+    // window.location.href =
+    //   "mailto:saurabhkumar679@gmail.com?subject=Please%20share%20your%20resume";
   };
 
   return (
@@ -65,7 +68,7 @@ export default function Home() {
           </p>
           <div>
             <p className={styles.tabs} onClick={openNewTab}>
-              Request for CV
+              Download CV
             </p>
           </div>
         </div>
@@ -112,7 +115,7 @@ export default function Home() {
           <li className={styles.mobileMenuTab}>
             {" "}
             <p className={styles.tabs} onClick={openNewTab}>
-              Request for CV
+              Download CV
             </p>
           </li>
         </ul>
